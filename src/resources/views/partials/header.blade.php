@@ -18,7 +18,7 @@
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a class="nav-link" href="/">Página Inicial</a></li>
                     <li class="nav-item"><a class="nav-link" href="/sobre">Institucional</a></li>
-                    <li class="nav-item"><a class="nav-link" href="/sobre">Notícias</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/noticias">Notícias</a></li>
                     <li class="nav-item"><a class="nav-link" href="/contato">Contato</a></li>
                 </ul>
             </div>

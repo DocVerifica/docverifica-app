@@ -11,7 +11,10 @@ return Application::configure(basePath: dirname(__DIR__))
         health: '/up',
     )
     ->withMiddleware(function (Middleware $middleware) {
-        //
+        $middleware->validateCsrfTokens(except: [
+            'search/*',
+            'https://docverifica.com.br/search',
+        ]);
     })
     ->withExceptions(function (Exceptions $exceptions) {
         //
